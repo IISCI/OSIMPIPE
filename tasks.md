@@ -1,6 +1,28 @@
+для сокращения длины имени файла)
 
+Сейчас - Надо
 
+jump_jo 3_inverse_dynamics.sto - Name_data_ jo3_inverse_dynamics.sto / Name_Date_jo3_ID.sto
 
+jump_jo 3_body_forces_at_joints.sto - Name_data _jo3_ body_forces_at_joints.sto / Name_Date_jo3_BFJ.sto 
+
+gait_reduced_nonscaled-scaled_JointReaction_ReactionLoads.sto - Name_data _jo3_ ReactionLoads.sto / Name_Date_jo3_RL.sto 
+
+gait_reduced_nonscaled-scaled_BodyKinematics_acc_global.sto - Name_data _jo3_ acc_global.sto / Name_Date_jo3_acc.sto 
+
+gait_reduced_nonscaled-scaled_BodyKinematics_pos_global.sto - Name_data _jo3_ pos_global.sto / Name_Date_jo3_pos.sto
+
+gait_reduced_nonscaled-scaled_BodyKinematics_vel_global.sto - Name_data _jo3_ vel_global.sto / Name_Date_jo3_vel.sto 
+
+jump_jo 3.trc - Name_data _jo3.trc / Name_Date_jo3.trc 
+
+jump_jo 3.mot - Name_data _jo3.mot / Name_Date_jo3.mot 
+
+jump_jo 3_ext_forces.mot - Name_data _jo3_ext_forces.mot / Name_Date_jo3_EF.mot 
+
+Наименование директории - / Name_Date_(Jump_Type)
+Добавить еще файл с антропометрией. Он тоже необходим для получения точной картины расчетов.
+--------------------------------------------------------------------------------------------
 Наименование директории - Name_data_’name_jump’
 А файлы в ней
 
@@ -147,7 +169,10 @@ _muscles_changed_0_states.sto
 'Power_hip_right',
 'Power_sum'
 
-по п.1 о промежуточных.
+#############################
+###по п.1 о промежуточных.###
+#############################
+
 В скрине, кроме Ekin_foot_right, Ekin_shank и Ekin_Thigh, все показатели работающие — моменты. мощности и скорости для правой ноги.
 п.2.
 Графики png не нужны, кроме рисунка с фазами. Он принципиален для дальнейшей работы с точки зрения реперных точек. Если можно, то для полноты на график хорошо бы добавить Вертикальную силу опоры —   X1_Force_Y. 
